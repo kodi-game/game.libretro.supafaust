@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.supafaust"
+		name="Nintendo - SNES / SFC (Beetle Supafaust)"
+		version="1.24.0.1"
+		provider-name="Mednafen team">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>smc|swc|sfc|fig</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0</summary>
+		<description lang="en_GB">Supported files: .smc, .swc, .sfc, .fig</description>
+		<license>GPLv2+</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.supafaust</source>
+	</extension>
+</addon>
