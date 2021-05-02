@@ -1,1 +1,1 @@
-supafaust https://github.com/libretro/supafaust/archive/094c8ae81a2d449143df5a293641458949f5d2eb.zip
+supafaust https://github.com/libretro/supafaust/archive/927b3a1f5e5b6689a1ff4d37ad42814e29ee0148.zip
