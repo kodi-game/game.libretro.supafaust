@@ -22,7 +22,7 @@ msgid "Settings"
 msgstr "Indstillinger"
 
 msgctxt "#30001"
-msgid "Internal resampler(output rate)"
+msgid "Pixel format"
 msgstr ""
 
 msgctxt "#30002"
@@ -30,7 +30,7 @@ msgid "Correct pixel aspect ratio"
 msgstr ""
 
 msgctxt "#30003"
-msgid "CX4 clock rate %"
+msgid "Horizontal blend/double filter"
 msgstr ""
 
 msgctxt "#30004"
@@ -38,19 +38,19 @@ msgid "Deinterlacer"
 msgstr ""
 
 msgctxt "#30005"
-msgid "Begin frame in SNES VBlank to lower latency"
+msgid "First displayed scanline in NTSC mode"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Horizontal blend/double filter"
+msgid "Last displayed scanline in NTSC mode"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Enable multitap"
+msgid "First displayed scanline in PAL mode"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Pixel format"
+msgid "Last displayed scanline in PAL mode"
 msgstr ""
 
 msgctxt "#30009"
@@ -58,7 +58,7 @@ msgid "Region/Type of SNES to emulate"
 msgstr ""
 
 msgctxt "#30010"
-msgid "PPU renderer"
+msgid "Begin frame in SNES VBlank to lower latency"
 msgstr ""
 
 msgctxt "#30011"
@@ -66,33 +66,33 @@ msgid "Enable 1-frame run-ahead"
 msgstr ""
 
 msgctxt "#30012"
-msgid "Last displayed scanline in NTSC mode"
+msgid "Enable multitap"
 msgstr ""
 
 msgctxt "#30013"
-msgid "Last displayed scanline in PAL mode"
+msgid "CX4 clock rate %"
 msgstr ""
 
 msgctxt "#30014"
-msgid "First displayed scanline in NTSC mode"
-msgstr ""
-
-msgctxt "#30015"
-msgid "First displayed scanline in PAL mode"
-msgstr ""
-
-msgctxt "#30016"
 msgid "SuperFX clock rate %"
 msgstr ""
 
-msgctxt "#30017"
+msgctxt "#30015"
 msgid "Emulate SuperFX instruction cache"
 msgstr ""
 
-msgctxt "#30018"
+msgctxt "#30016"
+msgid "Internal resampler(output rate)"
+msgstr ""
+
+msgctxt "#30017"
 msgid "Emulation thread affinity mask"
 msgstr ""
 
-msgctxt "#30019"
+msgctxt "#30018"
 msgid "PPU render thread affinity mask"
+msgstr ""
+
+msgctxt "#30019"
+msgid "PPU renderer"
 msgstr ""
