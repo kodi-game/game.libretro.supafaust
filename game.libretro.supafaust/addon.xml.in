@@ -18,6 +18,6 @@
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.supafaust</source>
 		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0</summary>
-		<description lang="en_GB">Supafaust is a SNES emulator for multicore ARM Linux platforms. It&#39;s particularly suitable for low-end devices.Supported files: .smc, .swc, .sfc, .fig</description>
+		<description lang="en_GB">Supafaust is a SNES emulator for multicore ARM Linux platforms. It&#39;s particularly suitable for low-end devices.</description>
 	</extension>
 </addon>
