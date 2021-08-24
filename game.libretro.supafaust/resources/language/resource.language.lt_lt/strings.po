@@ -21,9 +21,7 @@ msgid "Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "Supafaust is a SNES emulator for multicore ARM Linux platforms. It&#39;s particularly suitable for low-end devices.
-
-Supported files: .smc, .swc, .sfc, .fig"
+msgid "Supafaust is a SNES emulator for multicore ARM Linux platforms. It&#39;s particularly suitable for low-end devices.Supported files: .smc, .swc, .sfc, .fig"
 msgstr ""
 
 msgctxt "#30000"
