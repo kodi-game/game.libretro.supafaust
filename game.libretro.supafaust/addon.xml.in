@@ -17,6 +17,12 @@
 		<license>GPLv2+</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.supafaust</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
 		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0</summary>
 		<description lang="en_GB">Supafaust is a SNES emulator for multicore ARM Linux platforms. It&#39;s particularly suitable for low-end devices.</description>
 	</extension>
