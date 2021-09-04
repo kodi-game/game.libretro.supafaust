@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.supafaust"
 		name="Nintendo - SNES / SFC (Beetle Supafaust)"
-		version="1.24.0.9"
+		version="1.24.0.10"
 		provider-name="Mednafen team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -12,6 +12,7 @@
 		<extensions>smc|swc|sfc|fig</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
+		<requires_opengl>false</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<license>GPLv2+</license>
