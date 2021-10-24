@@ -5,7 +5,7 @@
 
 ### Description
 
-Supafaust is a SNES emulator for multicore ARM Linux platforms. It is particularly suitable for low-end devices.
+Supafaust is a SNES emulator for multicore ARM Linux platforms. It's particularly suitable for low-end devices.
 
 ### License
 
