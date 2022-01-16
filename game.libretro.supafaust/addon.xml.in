@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.supafaust"
 		name="Nintendo - SNES / SFC (Beetle Supafaust)"
-		version="1.24.0.14"
+		version="1.24.0.15"
 		provider-name="Mednafen team">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -26,6 +26,6 @@
 		</assets>
 		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0</summary>
 		<description lang="da_DK">Supafaust er en SNES-emulator til multikerne ARM Linux-platforme. Den er især velegnet til enheder, der ikke er kraftige.</description>
-		<description lang="en_GB">Supafaust is a SNES emulator for multicore ARM Linux platforms. It's particularly suitable for low-end devices.</description>
+		<description lang="en_GB">Supafaust is a SNES emulator for multicore ARM Linux platforms. It&#39;s particularly suitable for low-end devices.</description>
 	</extension>
 </addon>
