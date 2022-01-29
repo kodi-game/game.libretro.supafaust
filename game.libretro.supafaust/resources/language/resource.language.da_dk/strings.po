@@ -22,8 +22,8 @@ msgid "Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0"
 msgstr ""
 
 msgctxt "Addon Description"
-msgid "Supafaust is a SNES emulator for multicore ARM Linux platforms. It's particularly suitable for low-end devices."
-msgstr "Supafaust er en SNES-emulator til multikerne ARM Linux-platforme. Den er især velegnet til enheder, der ikke er kraftige."
+msgid "Supafaust is a SNES emulator for multicore ARM Linux platforms. It is particularly suitable for low-end devices."
+msgstr ""
 
 msgctxt "#30000"
 msgid "Settings"
@@ -104,3 +104,7 @@ msgstr "Affinitetsmaske til PPU renderingstråd"
 msgctxt "#30019"
 msgid "PPU renderer"
 msgstr "PPU-renderer"
+
+#~ msgctxt "Addon Description"
+#~ msgid "Supafaust is a SNES emulator for multicore ARM Linux platforms. It's particularly suitable for low-end devices."
+#~ msgstr "Supafaust er en SNES-emulator til multikerne ARM Linux-platforme. Den er især velegnet til enheder, der ikke er kraftige."
