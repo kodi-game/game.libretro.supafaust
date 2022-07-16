@@ -4,7 +4,7 @@ Maintainer: wsnipex <wsnipex@a1.net>
 Build-Depends: debhelper (>= 9.0.0),
                cmake,
                kodi-addon-dev,
-               libretro-supafaust (>= 1.24.0) | supafaust (>= 1.24.0)
+               libretro-supafaust (>= 1.29.0) | supafaust (>= 1.29.0)
 Standards-Version: 3.9.8
 Section: libs
 
