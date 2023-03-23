@@ -18,7 +18,7 @@ msgstr ""
 "X-Generator: Weblate 4.8\n"
 
 msgctxt "Addon Summary"
-msgid "Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0"
+msgid "Nintendo - SNES / SFC (Beetle Supafaust)"
 msgstr ""
 
 msgctxt "Addon Description"
