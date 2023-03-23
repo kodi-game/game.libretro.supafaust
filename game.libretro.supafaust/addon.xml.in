@@ -24,7 +24,7 @@
 			<screenshot>resources/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshot-03.jpg</screenshot>
 		</assets>
-		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle Supafaust) 1.24.0</summary>
+		<summary lang="en_GB">Nintendo - SNES / SFC (Beetle Supafaust)</summary>
 		<description lang="da_DK">Supafaust er en SNES-emulator til multikerne ARM Linux-platforme. Den er især velegnet til enheder, der ikke er kraftige.</description>
 		<description lang="de_DE">Supafaust ist ein SNES-Emulator für Mehrkern-ARM-Linux-Plattformen. Er ist besonders für Low-End-Geräte geeignet.</description>
 		<description lang="en_GB">Supafaust is a SNES emulator for multicore ARM Linux platforms. It is particularly suitable for low-end devices.</description>
