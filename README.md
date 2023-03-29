@@ -1,6 +1,3 @@
-[![Build Status](https://travis-ci.org/kodi-game/game.libretro.supafaust.svg?branch=master)](https://travis-ci.org/kodi-game/game.libretro.supafaust)
-[![Build Status](https://ci.appveyor.com/api/projects/status/github/kodi-game/game.libretro.supafaust?svg=true)](https://ci.appveyor.com/project/kodi-game/game-libretro-supafaust)
-
 # Nintendo - SNES / SFC (Beetle Supafaust)
 
 ### Description
