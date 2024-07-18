@@ -26,15 +26,19 @@ if(CORE_SYSTEM_NAME STREQUAL windows)
                     -j$ENV{NUMBER_OF_PROCESSORS}
                     -C .
                     -f Makefile
-                    platform=win
+                    ${LIBRETRO_DEBUG}
+                    GIT_VERSION=
                     MSYSTEM=${MSYSTEM}
-                     ${LIBRETRO_DEBUG} GIT_VERSION=)
+                    platform=win
+                    )
 elseif(CORE_SYSTEM_NAME STREQUAL linux)
   set(BUILD_COMMAND $(MAKE)
                     -C .
                     -f Makefile
+                    ${LIBRETRO_DEBUG}
+                    GIT_VERSION=
                     platform=unix
-                     ${LIBRETRO_DEBUG} GIT_VERSION=)
+                    )
 elseif(CORE_SYSTEM_NAME STREQUAL osx)
   if(CPU STREQUAL arm64)
     set(ARCH arm)
@@ -44,12 +48,14 @@ elseif(CORE_SYSTEM_NAME STREQUAL osx)
   set(BUILD_COMMAND $(MAKE)
                     -C .
                     -f Makefile
-                    platform=osx
+                    ${LIBRETRO_DEBUG}
                     arch=${ARCH}
                     CROSS_COMPILE=1
-                    LIBRETRO_APPLE_PLATFORM=${CPU}-apple-macos
+                    GIT_VERSION=
                     LIBRETRO_APPLE_ISYSROOT=${CMAKE_OSX_SYSROOT}
-                     ${LIBRETRO_DEBUG} GIT_VERSION=)
+                    LIBRETRO_APPLE_PLATFORM=${CPU}-apple-macos
+                    platform=osx
+                    )
 elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedded)
   if(CORE_PLATFORM_NAME STREQUAL ios)
     set(LIBRETRO_SONAME mednafen_supafaust_libretro_ios${CMAKE_SHARED_LIBRARY_SUFFIX})
@@ -61,15 +67,19 @@ elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedde
     set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE)
                                                   -C .
                                                   -f Makefile
+                                                  ${LIBRETRO_DEBUG}
+                                                  GIT_VERSION=
                                                   platform=${PLATFORM}
-                                                   ${LIBRETRO_DEBUG} GIT_VERSION=)
+                                                  )
   elseif(CORE_PLATFORM_NAME STREQUAL tvos)
     set(LIBRETRO_SONAME mednafen_supafaust_libretro_tvos${CMAKE_SHARED_LIBRARY_SUFFIX})
     set(BUILD_COMMAND IOSSDK=${CMAKE_OSX_SYSROOT} $(MAKE)
                                                   -C .
                                                   -f Makefile
+                                                  ${LIBRETRO_DEBUG}
+                                                  GIT_VERSION=
                                                   platform=tvos-arm64
-                                                   ${LIBRETRO_DEBUG} GIT_VERSION=)
+                                                  )
   endif()
 elseif(CORE_SYSTEM_NAME STREQUAL android)
   if(NOT NDKROOT)
@@ -84,11 +94,14 @@ elseif(CORE_SYSTEM_NAME STREQUAL android)
   endif()
   set(BUILD_COMMAND GNUMAKE=$(MAKE) ${NDKROOT}/ndk-build
                                     -C jni
+                                    ${LIBRETRO_DEBUG}
                                     APP_ABI=${PLATFORM}
-                                    V7NEONOPTIMIZATION=1
+                                    APP_SHORT_COMMANDS=true
+                                    GIT_VERSION=
                                     NDK_LIBS_OUT=${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}
                                     V=1
-                                     ${LIBRETRO_DEBUG} GIT_VERSION=
+                                    V7NEONOPTIMIZATION=1
+                                    
                     && cp ${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}/${PLATFORM}/${LIBRETRO_JNISONAME} ${PROJECT_SOURCE_DIR}/${LIBRETRO_BINARY_DIR}/${LIBRETRO_SONAME})
 elseif(CORE_SYSTEM_NAME STREQUAL rbpi)
   message(FATAL_ERROR "${PROJECT_NAME} needs RPi build command in CMakeLists.txt!")
@@ -96,8 +109,10 @@ elseif(CORE_SYSTEM_NAME STREQUAL freebsd)
   set(BUILD_COMMAND $(MAKE)
                     -C .
                     -f Makefile
+                    ${LIBRETRO_DEBUG
+                    GIT_VERSION=
                     platform=unix
-                     ${LIBRETRO_DEBUG} GIT_VERSION=)
+                    )
 else()
   message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
 endif()
