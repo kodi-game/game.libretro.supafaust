@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="30000">
+	<category label="128">
 		<setting label="30001" type="select" id="supafaust_pixel_format" values="rgb565|xrgb8888|0rgb1555" default="rgb565"/>
 		<setting label="30002" type="select" id="supafaust_correct_aspect" values="enabled|disabled|force_ntsc|force_pal" default="enabled"/>
 		<setting label="30003" type="select" id="supafaust_h_filter" values="phr256blend_auto512|phr256blend_512|512_blend|512|phr256blend" default="phr256blend_auto512"/>
