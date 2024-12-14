@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "Supafaust is a SNES emulator for multicore ARM Linux platforms. It is particularly suitable for low-end devices."
 msgstr "Supafaust es un emulador de SNES para plataformas Linux ARM multinúcleo. Está especialmente indicado para dispositivos de gama baja."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Ajustes"
-
 msgctxt "#30001"
 msgid "Pixel format"
 msgstr "Formato de Píxel"
@@ -104,3 +100,7 @@ msgstr "Máscara de Afinidad de Subprocesos de Renderizado PPU"
 msgctxt "#30019"
 msgid "PPU renderer"
 msgstr "Renderizador PPU"
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Ajustes"
