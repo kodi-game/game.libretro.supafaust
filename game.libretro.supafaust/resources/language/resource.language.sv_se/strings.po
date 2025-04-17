@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.supafaust\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2020-09-01 12:59i\n"
-"PO-Revision-Date: 2025-04-11 09:05+0000\n"
+"PO-Revision-Date: 2025-04-17 04:27+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-supafaust/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - SNES / SFC (Beetle Supafaust)"
@@ -29,77 +29,92 @@ msgctxt "#30001"
 msgid "Pixel format"
 msgstr "Bildpunktsformat"
 
+#, fuzzy
 msgctxt "#30002"
 msgid "Correct pixel aspect ratio"
-msgstr ""
+msgstr "Korrekt pixelaspektförhållande"
 
+#, fuzzy
 msgctxt "#30003"
 msgid "Horizontal blend/double filter"
-msgstr ""
+msgstr "Horisontell blandning/dubbelfilter"
 
 msgctxt "#30004"
 msgid "Deinterlacer"
-msgstr ""
+msgstr "Deinterlacer"
 
+#, fuzzy
 msgctxt "#30005"
 msgid "First displayed scanline in NTSC mode"
-msgstr ""
+msgstr "Första scanline som visas i NTSC-läge"
 
+#, fuzzy
 msgctxt "#30006"
 msgid "Last displayed scanline in NTSC mode"
-msgstr ""
+msgstr "Senast visade scanline i NTSC-läge"
 
+#, fuzzy
 msgctxt "#30007"
 msgid "First displayed scanline in PAL mode"
-msgstr ""
+msgstr "Första scanline som visas i PAL-läge"
 
+#, fuzzy
 msgctxt "#30008"
 msgid "Last displayed scanline in PAL mode"
-msgstr ""
+msgstr "Senast visade scanline i PAL-läge"
 
+#, fuzzy
 msgctxt "#30009"
 msgid "Region/Type of SNES to emulate"
-msgstr ""
+msgstr "Region/Typ av SNES som ska emuleras"
 
+#, fuzzy
 msgctxt "#30010"
 msgid "Begin frame in SNES VBlank to lower latency"
-msgstr ""
+msgstr "Börja bildrutan i SNES VBlank för att minska latensen"
 
+#, fuzzy
 msgctxt "#30011"
 msgid "Enable 1-frame run-ahead"
-msgstr ""
+msgstr "Aktivera 1-frame run-ahead"
 
 msgctxt "#30012"
 msgid "Enable multitap"
-msgstr ""
+msgstr "Aktivera multitap"
 
+#, fuzzy
 msgctxt "#30013"
 msgid "CX4 clock rate %"
-msgstr ""
+msgstr "CX4 klockfrekvens %"
 
+#, fuzzy
 msgctxt "#30014"
 msgid "SuperFX clock rate %"
-msgstr ""
+msgstr "SuperFX klockfrekvens %"
 
+#, fuzzy
 msgctxt "#30015"
 msgid "Emulate SuperFX instruction cache"
-msgstr ""
+msgstr "Emulera SuperFX instruktionscache"
 
+#, fuzzy
 msgctxt "#30016"
 msgid "Internal resampler(output rate)"
-msgstr ""
+msgstr "Intern resampler (utgångsfrekvens)"
 
+#, fuzzy
 msgctxt "#30017"
 msgid "Emulation thread affinity mask"
-msgstr ""
+msgstr "Affinitetsmask för emuleringstråd"
 
+#, fuzzy
 msgctxt "#30018"
 msgid "PPU render thread affinity mask"
-msgstr ""
+msgstr "PPU-renderingstråd affinitetsmask"
 
 msgctxt "#30019"
 msgid "PPU renderer"
-msgstr ""
+msgstr "PPU-renderare"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
