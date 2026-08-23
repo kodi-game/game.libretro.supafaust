@@ -1,1 +1,1 @@
-supafaust https://github.com/libretro/supafaust/archive/d6187e5337e6c2646d003db3ab1936727ca75301.tar.gz
+supafaust https://github.com/libretro/supafaust/archive/87a4a75d4c1e0c328e9dccfc88ee616c5f583548.tar.gz

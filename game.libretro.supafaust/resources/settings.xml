@@ -20,8 +20,8 @@
 					<default>enabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 							<option>force_ntsc</option>
 							<option>force_pal</option>
 						</options>
@@ -179,7 +179,7 @@
 					<default>auto</default>
 					<constraints>
 						<options>
-							<option>auto</option>
+							<option label="16316">auto</option>
 							<option>ntsc</option>
 							<option>pal</option>
 							<option>ntsc_lie_auto</option>
@@ -195,8 +195,8 @@
 					<default>enabled</default>
 					<constraints>
 						<options>
-							<option>enabled</option>
-							<option>disabled</option>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -206,7 +206,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option>video</option>
 							<option>video+audio</option>
 						</options>
@@ -218,7 +218,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option>port1</option>
 							<option>port2</option>
 							<option>port1+port2</option>
@@ -268,8 +268,8 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
-							<option>enabled</option>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -279,7 +279,7 @@
 					<default>disabled</default>
 					<constraints>
 						<options>
-							<option>disabled</option>
+							<option label="13106">disabled</option>
 							<option>44100</option>
 							<option>48000</option>
 							<option>96000</option>
