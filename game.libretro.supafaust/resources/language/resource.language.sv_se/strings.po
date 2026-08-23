@@ -101,6 +101,70 @@ msgctxt "#30019"
 msgid "PPU renderer"
 msgstr "PPU-renderare"
 
+msgctxt "#30020"
+msgid "force_ntsc"
+msgstr ""
+
+msgctxt "#30021"
+msgid "force_pal"
+msgstr ""
+
+msgctxt "#30022"
+msgid "ntsc"
+msgstr ""
+
+msgctxt "#30023"
+msgid "pal"
+msgstr ""
+
+msgctxt "#30024"
+msgid "ntsc_lie_auto"
+msgstr ""
+
+msgctxt "#30025"
+msgid "pal_lie_auto"
+msgstr ""
+
+msgctxt "#30026"
+msgid "ntsc_lie_pal"
+msgstr ""
+
+msgctxt "#30027"
+msgid "pal_lie_ntsc"
+msgstr ""
+
+msgctxt "#30028"
+msgid "video"
+msgstr ""
+
+msgctxt "#30029"
+msgid "video+audio"
+msgstr ""
+
+msgctxt "#30030"
+msgid "port1"
+msgstr ""
+
+msgctxt "#30031"
+msgid "port2"
+msgstr ""
+
+msgctxt "#30032"
+msgid "port1+port2"
+msgstr ""
+
+msgctxt "#30033"
+msgid "44100"
+msgstr ""
+
+msgctxt "#30034"
+msgid "48000"
+msgstr ""
+
+msgctxt "#30035"
+msgid "96000"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Inställningar"
