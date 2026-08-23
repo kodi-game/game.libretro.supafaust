@@ -22,8 +22,8 @@
 						<options>
 							<option label="305">enabled</option>
 							<option label="13106">disabled</option>
-							<option>force_ntsc</option>
-							<option>force_pal</option>
+							<option label="30020">force_ntsc</option>
+							<option label="30021">force_pal</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -180,12 +180,12 @@
 					<constraints>
 						<options>
 							<option label="16316">auto</option>
-							<option>ntsc</option>
-							<option>pal</option>
-							<option>ntsc_lie_auto</option>
-							<option>pal_lie_auto</option>
-							<option>ntsc_lie_pal</option>
-							<option>pal_lie_ntsc</option>
+							<option label="30022">ntsc</option>
+							<option label="30023">pal</option>
+							<option label="30024">ntsc_lie_auto</option>
+							<option label="30025">pal_lie_auto</option>
+							<option label="30026">ntsc_lie_pal</option>
+							<option label="30027">pal_lie_ntsc</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -207,8 +207,8 @@
 					<constraints>
 						<options>
 							<option label="13106">disabled</option>
-							<option>video</option>
-							<option>video+audio</option>
+							<option label="30028">video</option>
+							<option label="30029">video+audio</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -219,9 +219,9 @@
 					<constraints>
 						<options>
 							<option label="13106">disabled</option>
-							<option>port1</option>
-							<option>port2</option>
-							<option>port1+port2</option>
+							<option label="30030">port1</option>
+							<option label="30031">port2</option>
+							<option label="30032">port1+port2</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
@@ -280,9 +280,9 @@
 					<constraints>
 						<options>
 							<option label="13106">disabled</option>
-							<option>44100</option>
-							<option>48000</option>
-							<option>96000</option>
+							<option label="30033">44100</option>
+							<option label="30034">48000</option>
+							<option label="30035">96000</option>
 						</options>
 					</constraints>
 					<control type="list" format="string" />
